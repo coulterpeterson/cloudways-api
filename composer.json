@@ -1,9 +1,9 @@
 {
-    "name": "armagedan/cloudways-api",
+    "name": "coulterpeterson/cloudways-api",
     "description": "A Class which contains a collection of Cloudways API for ease of use. All the available API from the Cloudways Docs are included. Happy Coding.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^7.2"
     },
     "license": "MIT",
     "authors": [
@@ -12,6 +12,7 @@
             "email": "shuaaum@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
 	"autoload": {
         "psr-4": {
             "Armagedan\\CloudwaysApi\\": "src"

@@ -1,11 +1,13 @@
 # Cloudways API
 
+**Forked from [mohamedshuaau/cloudways-api](https://github.com/mohamedshuaau/cloudways-api).**
+
 This API is built to make your coding experience less stressful and help you get started without the hassle of extra codes. This package contains a class with all the functions which are available on the official API Documentation of Cloudways.
 
 **Please bare in mind that some of these functions may not work as intended as Cloudways API is still on beta version. Some of the URL's does not output the expected results.**
 
 # Installation
-	composer require armagedan/cloudways-api
+	composer require coulterpeterson/cloudways-api
 
 This package requires guzzlehttp to work but it will automatically be installed with this package. If you are still having trouble with guzzle, manually install with:
 
