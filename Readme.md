@@ -22,10 +22,10 @@ Here you will find all the information, required parameters and types of values 
 **Basic Usage:**
 
 	//Here is where you define the email address and your API key from Cloudways  
-	$CW_API = new CloudwaysAPIClient('example@gmail.com', '40tYp21iqEvwIVelOc4mZNeZkrRtdO');  
+	$CW_API = new new \CoulterPeterson\CloudwaysApi\CloudwaysAPIClient('example@gmail.com', 'API_KEY');  
   
 	//Magic
-	$server_settings = $CW_API->get_server_settings('12345');  
+	$server_settings = $CW_API->get_server_settings('12345');   // (Server ID)
   
 	//object to json
 	$json = json_encode($server_settings);  
