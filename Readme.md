@@ -21,8 +21,11 @@ Here you will find all the information, required parameters and types of values 
 
 **Basic Usage:**
 
-	//Here is where you define the email address and your API key from Cloudways  
-	$CW_API = new new \CoulterPeterson\CloudwaysApi\CloudwaysAPIClient('example@gmail.com', 'API_KEY');  
+	// Use Composer's autoload (if using Laravel, the package will be loaded as a service automatically)
+ 	require_once 'vendor/autoload.php';
+ 
+ 	//Here is where you define the email address and your API key from Cloudways  
+	$CW_API = new \CoulterPeterson\CloudwaysApi\CloudwaysAPIClient('example@gmail.com', 'API_KEY');  
   
 	//Magic
 	$server_settings = $CW_API->get_server_settings('12345');   // (Server ID)
